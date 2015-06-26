@@ -1,7 +1,6 @@
 # README
 
-followed "[React.js - A guide for Rails developers](https://www.airpair.com/reactjs/posts/reactjs-a-guide-for-rails-developers)" tutorial
-
+followed "[React.js - A guide for Rails developers](https://www.airpair.com/reactjs/posts/reactjs-a-guide-for-rails-developers)" tutorial  
 the author Fernando Villalobos' [Demo](https://github.com/fervisa/accounts-react-rails)
 
 ## A mock expense tracking app
@@ -19,4 +18,5 @@ For this guide, we are building a small application from scratch to **keep track
 + Next, we need to create a new file `index.html.erb` under `apps/views/records/`, this file will act as a bridge between our Rails app and our React Components.
 
 > State drives one-way reactive data flow
-> the name of the React component we want to render "Records"
+> React component we want to render "Records"
+> Properties to communicate with other components

@@ -1,6 +1,6 @@
 class RecordsController < ApplicationController
 
   def index
-    @record = Record.all
+    @records = Record.all
   end
 end
