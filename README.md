@@ -17,3 +17,6 @@ For this guide, we are building a small application from scratch to **keep track
 
 + We are going to build a Record resource, which will include a date, a title, and an amount.
 + Next, we need to create a new file `index.html.erb` under `apps/views/records/`, this file will act as a bridge between our Rails app and our React Components.
+
+> State drives one-way reactive data flow
+> the name of the React component we want to render "Records"
