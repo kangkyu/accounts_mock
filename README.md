@@ -1,28 +1,14 @@
-== README
+# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## A mock expense tracking app
 
-Things you may want to cover:
+For this guide, we are building a small application from scratch to keep track of our expenses; each record will consist of a date, a title and an amount. A record will be treated as Credit if its amount is greater than zero, otherwise it will be treated as Debit. 
 
-* Ruby version
++ When the user creates a new record through the horizontal form, it will be appended to the records table
++ The user will be able to inline-edit any existing record
++ Clicking on any *Delete* button will remove the associated record from the table
++ Adding, editing or removing an existing record will update the amount of boxes at the top of the page
 
-* System dependencies
+followed "[React.js - A guide for Rails developers](https://www.airpair.com/reactjs/posts/reactjs-a-guide-for-rails-developers)" tutorial
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+https://github.com/fervisa/accounts-react-rails
