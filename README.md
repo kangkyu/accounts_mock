@@ -1,7 +1,7 @@
 # README
 
 followed "[React.js - A guide for Rails developers](https://www.airpair.com/reactjs/posts/reactjs-a-guide-for-rails-developers)" tutorial  
-the author Fernando Villalobos' [Demo](https://github.com/fervisa/accounts-react-rails)
+the author [Fernando Villalobos' Demo](https://github.com/fervisa/accounts-react-rails)
 
 ## A mock expense tracking app
 
