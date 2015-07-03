@@ -5,6 +5,8 @@ the author [Fernando Villalobos' Demo](https://github.com/fervisa/accounts-react
 
 ## A mock expense tracking app
 
+> I have heard comments of people saying X or Y JavaScript framework has a steep learning curve because of all the new concepts introduced, this is not React's case.
+
 > For this guide, we are building a small application from scratch to **keep track of our expenses**; each record will consist of a date, a title and an amount. A record will be treated as Credit if its amount is greater than zero, otherwise it will be treated as Debit.
 
 + When the user creates a new record through the horizontal form, it will be appended to the records table
