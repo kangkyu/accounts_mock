@@ -14,9 +14,9 @@ the author [Fernando Villalobos' Demo](https://github.com/fervisa/accounts-react
 
 ## date, title, and amount
 
-+ We are going to build a Record resource, which will include a date, a title, and an amount.
-+ Next, we need to create a new file `index.html.erb` under `apps/views/records/`, this file will act as a bridge between our Rails app and our React Components.
++ build a Record resource, which will include a date, a title, and an amount.
++ create a new file `index.html.erb` under `apps/views/records/`, this file will act as a bridge between our Rails app and our React Components.
 
-> State drives one-way reactive data flow
-> React component we want to render "Records"
-> Properties to communicate with other components
+> State: drives one-way reactive data flow
+> React: component we want to render "Records"
+> Properties: to communicate with other components
