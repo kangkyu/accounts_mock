@@ -1,7 +1,12 @@
 class RecordsController < ApplicationController
 
   def index
-    @records = Record.all
+    # @records = Record.all
+    render json: Record.all
+  end
+
+  def show
+    render json: Record.find_by(id: params[:id])
   end
 
   def create
